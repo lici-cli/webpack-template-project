@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#root {
+  background-color: pink;
+  font-size: 24px;
+  color: #FFF;
+  transform: translateX(20px);
+  /* background: url(./lici.png) no-repeat; */
+}

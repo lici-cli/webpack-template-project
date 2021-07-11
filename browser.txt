@@ -1,0 +1,12 @@
+  这个可以加在package.json中，但是加上去以后热更新就不行了
+  .browserslistrc 要设置正确不然会和package.json里的文件有冲突了就报错。
+  无论怎么加，只要加上了浏览器列表，热更新就不会生效
+
+"browserslist": [
+  "defaults",
+  "not ie < 11",
+  "last 2 versions",
+  "> 1%",
+  "iOS 7",
+  "last 3 iOS versions"
+]
